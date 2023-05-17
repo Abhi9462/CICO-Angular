@@ -1,0 +1,32 @@
+<div class="login-page">
+<div class="container">
+    <div class="d-flex align-items-center vh-100">
+        <div class="login w-100">
+            <h1 class="heading1 text-center heading-1 font-600 light">Welcome to<br>C<span
+                    class="i">I</span>CO</h1>
+            <div class="row mx-1 ms-1">
+                <div class="col-md-8 login-box mx-auto">
+                    <h3 class="heading1 secondary font-32 font-600">Log In</h3>
+                    <form class="form">
+                        <div class="form-group">
+                            <label for="email" class="secondary font-18 font-600 user">User ID</label>
+                            <input type="email" class="form-control1" id="email" placeholder="Enter Your User ID" name="userId" [(ngModel)]="dto.userId">
+                        </div>
+                        <div class="form-group">
+                            <label for="pwd" class="secondary font-18 font-600 user">Password</label>
+                            <input type="password" class="form-control1" id="pwd" placeholder="Enter Your Password" name="password" [(ngModel)]="dto.password">
+                        </div>
+                        <h4 class="secondary font-18 font-600 text-end mb-3">Forget Password</h4>
+                        <button class="btn1 mx-auto" (click)="login()">
+                            <a type="button" class="font-21 font-600">Log In</a>
+                        </button>
+
+                    </form>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+</div>
+

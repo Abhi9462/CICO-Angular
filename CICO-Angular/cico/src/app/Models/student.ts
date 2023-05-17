@@ -1,0 +1,33 @@
+export class Student {
+studentId:number | undefined;
+userId:string="";
+fullName:string="";
+mobile:string="";
+dob:Date|undefined;
+email:string="";
+password:string="";
+college:string="";
+joinDate:Date|undefined;
+profilePic:string="";
+applyForCourse:string="";
+currentSem:string="";
+fathersName:string="";
+mothersName:string="";
+fathersOccupation:string="";
+contactFather:string="";
+cotactMother:string="";
+localAddress:string="";
+parmanentAddress:string="";
+languageKnown:string="";
+currentCourse:string="";
+fcmId:string="";
+deviceId:string="";
+inUseDeviceId:string="";
+isDeviceApproved:string="";
+deviceType:string="";
+isFromEnquiry:boolean=false;
+isConverted:boolean=false;
+isCompleted:boolean=false;
+isActive:boolean=false;
+role:string="";
+}
